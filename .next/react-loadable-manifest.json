@@ -1,0 +1,26 @@
+{
+  "..\\node_modules\\@react-three\\drei\\core\\VideoTexture.js -> hls.js": {
+    "id": null,
+    "files": []
+  },
+  "..\\node_modules\\@react-three\\drei\\web\\FaceLandmarker.js -> @mediapipe/tasks-vision": {
+    "id": null,
+    "files": []
+  },
+  "app\\aqua-map\\page.tsx -> @/components/maps/AquaMapViewer": {
+    "id": 26232,
+    "files": [
+      "static/chunks/d0deef33.414f5e0355024f0b.js",
+      "static/chunks/232.8f6d0d7bf0daba70.js"
+    ]
+  },
+  "app\\borewell-monitoring\\page.tsx -> @/components/borewell-3d/BorewellScene": {
+    "id": 95368,
+    "files": [
+      "static/chunks/b536a0f1.c6b4901d02ff73ab.js",
+      "static/chunks/0f8af13e.16ce28f6816039d0.js",
+      "static/chunks/466.61ca48bb2aa83028.js",
+      "static/chunks/368.b82dbe5c0fc60897.js"
+    ]
+  }
+}

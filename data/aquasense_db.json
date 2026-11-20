@@ -1,0 +1,817 @@
+{
+  "profiles": [
+    {
+      "id": "usr-01",
+      "email": "admin@aquasense.ai",
+      "fullName": "Dr. Radhika Sharma",
+      "role": "super_admin",
+      "phone": "+91 98765 43210",
+      "communityId": "comm-01",
+      "communityName": "Green Valley Eco Enclave"
+    },
+    {
+      "id": "usr-02",
+      "email": "secretary@greenvalleys.org",
+      "fullName": "Suresh Menon",
+      "role": "society_admin",
+      "phone": "+91 98450 12345",
+      "communityId": "comm-01",
+      "communityName": "Green Valley Eco Enclave"
+    },
+    {
+      "id": "usr-03",
+      "email": "inspector@bwssb.gov.in",
+      "fullName": "Vikram Patel",
+      "role": "water_authority",
+      "phone": "+91 94480 67890",
+      "communityId": "comm-01",
+      "communityName": "Green Valley Eco Enclave"
+    },
+    {
+      "id": "usr-04",
+      "email": "resident.anita@gmail.com",
+      "fullName": "Anita Desai",
+      "role": "resident",
+      "phone": "+91 99123 45678",
+      "communityId": "comm-01",
+      "communityName": "Green Valley Eco Enclave"
+    }
+  ],
+  "communities": [
+    {
+      "id": "comm-01",
+      "name": "Green Valley Eco Enclave",
+      "code": "GV-BLR-01",
+      "address": "Survey 42, Varthur - Sarjapur Road",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "postalCode": "560087",
+      "latitude": 12.9352,
+      "longitude": 77.7298,
+      "totalHouseholds": 380
+    },
+    {
+      "id": "comm-02",
+      "name": "Sunrise Heights Cooperative",
+      "code": "SH-PUN-02",
+      "address": "Bavdhan Hills, West Pune",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "postalCode": "411021",
+      "latitude": 18.5158,
+      "longitude": 73.7819,
+      "totalHouseholds": 240
+    }
+  ],
+  "borewells": [
+    {
+      "id": "bw-001",
+      "communityId": "comm-01",
+      "name": "Main Deep Borewell #1 (North Gate)",
+      "code": "BW-GV-01",
+      "totalDepthMeters": 185,
+      "casingDepthMeters": 32,
+      "pumpInstalledDepthMeters": 150,
+      "pumpPowerHp": 7.5,
+      "pumpFlowRateLpm": 75,
+      "status": "active",
+      "currentDepthToWaterMeters": 15.1,
+      "currentWaterColumnMeters": 169.9,
+      "installationDate": "2021-03-15",
+      "lastUpdated": "2026-11-20T15:04:37.588Z",
+      "source": "manual_verified"
+    },
+    {
+      "id": "bw-002",
+      "communityId": "comm-01",
+      "name": "Secondary Recharge Borewell #2 (South Park)",
+      "code": "BW-GV-02",
+      "totalDepthMeters": 140,
+      "casingDepthMeters": 28,
+      "pumpInstalledDepthMeters": 110,
+      "pumpPowerHp": 5,
+      "pumpFlowRateLpm": 50,
+      "status": "active",
+      "currentDepthToWaterMeters": 16.2,
+      "currentWaterColumnMeters": 93.8,
+      "installationDate": "2022-07-20",
+      "lastUpdated": "2026-11-20T15:04:26.619Z",
+      "source": "manual_verified"
+    },
+    {
+      "id": "bw-003",
+      "communityId": "comm-02",
+      "name": "Bavdhan Hill Recharge Borewell #1",
+      "code": "BW-SH-01",
+      "totalDepthMeters": 160,
+      "casingDepthMeters": 30,
+      "pumpInstalledDepthMeters": 130,
+      "pumpPowerHp": 6,
+      "pumpFlowRateLpm": 60,
+      "status": "maintenance",
+      "currentDepthToWaterMeters": 22.4,
+      "currentWaterColumnMeters": 107.6,
+      "installationDate": "2020-11-10",
+      "lastUpdated": "2026-11-20T15:04:26.619Z",
+      "source": "sensor"
+    }
+  ],
+  "groundwaterReadings": [
+    {
+      "id": "gw-read-1",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 13.9,
+      "waterColumnMeters": 171.1,
+      "temperatureCelsius": 24.3,
+      "source": "manual_verified",
+      "measuredAt": "2026-10-21T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-2",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 13.96,
+      "waterColumnMeters": 171.04,
+      "temperatureCelsius": 23.9,
+      "source": "sensor",
+      "measuredAt": "2026-10-22T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-3",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.02,
+      "waterColumnMeters": 170.98,
+      "temperatureCelsius": 23.2,
+      "source": "sensor",
+      "measuredAt": "2026-10-23T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-4",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.07,
+      "waterColumnMeters": 170.93,
+      "temperatureCelsius": 22.7,
+      "source": "sensor",
+      "measuredAt": "2026-10-24T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-5",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.13,
+      "waterColumnMeters": 170.87,
+      "temperatureCelsius": 23,
+      "source": "sensor",
+      "measuredAt": "2026-10-25T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-6",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.18,
+      "waterColumnMeters": 170.82,
+      "temperatureCelsius": 23.7,
+      "source": "sensor",
+      "measuredAt": "2026-10-26T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-7",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.22,
+      "waterColumnMeters": 170.78,
+      "temperatureCelsius": 24.3,
+      "source": "sensor",
+      "measuredAt": "2026-10-27T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-8",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.26,
+      "waterColumnMeters": 170.74,
+      "temperatureCelsius": 24.1,
+      "source": "manual_verified",
+      "measuredAt": "2026-10-28T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-9",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.29,
+      "waterColumnMeters": 170.71,
+      "temperatureCelsius": 23.4,
+      "source": "sensor",
+      "measuredAt": "2026-10-29T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-10",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.32,
+      "waterColumnMeters": 170.68,
+      "temperatureCelsius": 22.8,
+      "source": "sensor",
+      "measuredAt": "2026-10-30T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-11",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.34,
+      "waterColumnMeters": 170.66,
+      "temperatureCelsius": 22.8,
+      "source": "sensor",
+      "measuredAt": "2026-10-31T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-12",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.35,
+      "waterColumnMeters": 170.65,
+      "temperatureCelsius": 23.5,
+      "source": "sensor",
+      "measuredAt": "2026-11-01T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-13",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.36,
+      "waterColumnMeters": 170.64,
+      "temperatureCelsius": 24.2,
+      "source": "sensor",
+      "measuredAt": "2026-11-02T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-14",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.37,
+      "waterColumnMeters": 170.63,
+      "temperatureCelsius": 24.2,
+      "source": "sensor",
+      "measuredAt": "2026-11-03T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-15",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.37,
+      "waterColumnMeters": 170.63,
+      "temperatureCelsius": 23.6,
+      "source": "manual_verified",
+      "measuredAt": "2026-11-04T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-16",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.37,
+      "waterColumnMeters": 170.63,
+      "temperatureCelsius": 22.9,
+      "source": "sensor",
+      "measuredAt": "2026-11-05T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-17",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.37,
+      "waterColumnMeters": 170.63,
+      "temperatureCelsius": 22.7,
+      "source": "sensor",
+      "measuredAt": "2026-11-06T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-18",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.37,
+      "waterColumnMeters": 170.63,
+      "temperatureCelsius": 23.3,
+      "source": "sensor",
+      "measuredAt": "2026-11-07T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-19",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.37,
+      "waterColumnMeters": 170.63,
+      "temperatureCelsius": 24,
+      "source": "sensor",
+      "measuredAt": "2026-11-08T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-20",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.38,
+      "waterColumnMeters": 170.62,
+      "temperatureCelsius": 24.3,
+      "source": "sensor",
+      "measuredAt": "2026-11-09T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-21",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.39,
+      "waterColumnMeters": 170.61,
+      "temperatureCelsius": 23.8,
+      "source": "sensor",
+      "measuredAt": "2026-11-10T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-22",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.4,
+      "waterColumnMeters": 170.6,
+      "temperatureCelsius": 23.1,
+      "source": "manual_verified",
+      "measuredAt": "2026-11-11T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-23",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.42,
+      "waterColumnMeters": 170.58,
+      "temperatureCelsius": 22.7,
+      "source": "sensor",
+      "measuredAt": "2026-11-12T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-24",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.44,
+      "waterColumnMeters": 170.56,
+      "temperatureCelsius": 23.1,
+      "source": "sensor",
+      "measuredAt": "2026-11-13T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-25",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.47,
+      "waterColumnMeters": 170.53,
+      "temperatureCelsius": 23.8,
+      "source": "sensor",
+      "measuredAt": "2026-11-14T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-26",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.51,
+      "waterColumnMeters": 170.49,
+      "temperatureCelsius": 24.3,
+      "source": "sensor",
+      "measuredAt": "2026-11-15T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-27",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.55,
+      "waterColumnMeters": 170.45,
+      "temperatureCelsius": 24,
+      "source": "sensor",
+      "measuredAt": "2026-11-16T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-28",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.59,
+      "waterColumnMeters": 170.41,
+      "temperatureCelsius": 23.3,
+      "source": "sensor",
+      "measuredAt": "2026-11-17T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-29",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.65,
+      "waterColumnMeters": 170.35,
+      "temperatureCelsius": 22.7,
+      "source": "manual_verified",
+      "measuredAt": "2026-11-18T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-30",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.7,
+      "waterColumnMeters": 170.3,
+      "temperatureCelsius": 22.9,
+      "source": "sensor",
+      "measuredAt": "2026-11-19T15:04:26.619Z"
+    },
+    {
+      "id": "gw-read-31",
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 14.76,
+      "waterColumnMeters": 170.24,
+      "temperatureCelsius": 23.6,
+      "source": "sensor",
+      "measuredAt": "2026-11-20T15:04:26.619Z",
+      "notes": "Real-time telemetry sample"
+    },
+    {
+      "borewellId": "bw-001",
+      "depthToWaterMeters": 15.1,
+      "waterColumnMeters": 169.9,
+      "temperatureCelsius": 24,
+      "source": "manual_verified",
+      "measuredAt": "2026-11-20T15:04:37.588Z",
+      "notes": "Automated integration test reading",
+      "id": "gw-read-1795187077588"
+    }
+  ],
+  "waterTanks": [
+    {
+      "id": "tank-001",
+      "communityId": "comm-01",
+      "name": "Overhead Reservoir Tower A & B",
+      "tankType": "overhead",
+      "capacityLiters": 150000,
+      "heightMeters": 4.5,
+      "currentLevelLiters": 112500,
+      "currentPercentage": 75,
+      "status": "optimal",
+      "lastUpdated": "2026-11-20T15:04:26.621Z",
+      "sensorId": "sens-002"
+    },
+    {
+      "id": "tank-002",
+      "communityId": "comm-01",
+      "name": "Central Underground Raw Sump",
+      "tankType": "underground_sump",
+      "capacityLiters": 250000,
+      "heightMeters": 5.2,
+      "currentLevelLiters": 165000,
+      "currentPercentage": 66,
+      "status": "optimal",
+      "lastUpdated": "2026-11-20T15:04:26.621Z"
+    },
+    {
+      "id": "tank-003",
+      "communityId": "comm-01",
+      "name": "Rainwater Buffer Storage Sump",
+      "tankType": "ground_level",
+      "capacityLiters": 80000,
+      "heightMeters": 3.5,
+      "currentLevelLiters": 28000,
+      "currentPercentage": 35,
+      "status": "moderate",
+      "lastUpdated": "2026-11-20T15:04:26.621Z"
+    }
+  ],
+  "tankerSchedules": [
+    {
+      "id": "tnk-sch-01",
+      "communityId": "comm-01",
+      "vendorName": "Cauvery Aqua Logistics",
+      "driverName": "Mahesh Kumar",
+      "driverPhone": "+91 97412 88451",
+      "vehicleNumber": "KA-01-MJ-4512",
+      "capacityLiters": 12000,
+      "scheduledDate": "2026-11-20",
+      "scheduledTime": "10:30 AM",
+      "status": "arrived",
+      "actualArrivalTime": "2026-11-20T15:04:26.621Z",
+      "targetTankId": "tank-002",
+      "notes": "Gate pass #892 issued. Water TDS 240 ppm verified."
+    },
+    {
+      "id": "tnk-sch-02",
+      "communityId": "comm-01",
+      "vendorName": "Sarjapur Clean Water Express",
+      "driverName": "Pradeep Rao",
+      "driverPhone": "+91 98860 33190",
+      "vehicleNumber": "KA-53-B-7820",
+      "capacityLiters": 12000,
+      "scheduledDate": "2026-11-21",
+      "scheduledTime": "04:00 PM",
+      "status": "scheduled",
+      "targetTankId": "tank-001",
+      "notes": "Scheduled replenishment for weekend evening demand."
+    },
+    {
+      "id": "tnk-sch-03",
+      "communityId": "comm-01",
+      "vendorName": "AquaPure Water Carriers",
+      "driverName": "Sunil Gowda",
+      "driverPhone": "+91 99001 22849",
+      "vehicleNumber": "KA-05-AB-3921",
+      "capacityLiters": 15000,
+      "scheduledDate": "2026-11-19",
+      "scheduledTime": "11:00 AM",
+      "status": "completed",
+      "actualArrivalTime": "2026-11-19T15:04:26.621Z",
+      "targetTankId": "tank-002",
+      "notes": "Delivered 15,000L. Payment voucher #1043 approved."
+    }
+  ],
+  "harvestingUnits": [
+    {
+      "id": "rwh-01",
+      "communityId": "comm-01",
+      "buildingName": "Clubhouse & Tower A Catchment",
+      "catchmentAreaSqm": 1450,
+      "harvestingMethod": "hybrid",
+      "storageCapacityLiters": 120000,
+      "runoffCoefficient": 0.88,
+      "installationDate": "2021-08-10",
+      "filterType": "Dual Sand-Gravel & Leaf Screen Pre-Filter"
+    },
+    {
+      "id": "rwh-02",
+      "communityId": "comm-01",
+      "buildingName": "Tower B & Parking Deck Rooftop",
+      "catchmentAreaSqm": 2100,
+      "harvestingMethod": "groundwater_recharge_pit",
+      "storageCapacityLiters": 80000,
+      "runoffCoefficient": 0.85,
+      "installationDate": "2022-04-18",
+      "filterType": "Percolation Recharge Well with Geo-textile Membrane"
+    }
+  ],
+  "leakageReports": [
+    {
+      "id": "leak-01",
+      "communityId": "comm-01",
+      "reportedBy": "usr-04",
+      "reporterName": "Anita Desai (Tower B - 402)",
+      "title": "Main Garden Irrigation Valve Weeping",
+      "description": "Water continuously pooling near the children's park sprinkler junction valve. Estimated 15-20 litres lost every hour.",
+      "leakageType": "valve_leak",
+      "severity": "medium",
+      "latitude": 12.9351,
+      "longitude": 77.7296,
+      "locationDescription": "North garden corner near bench 4",
+      "photoUrl": "https://images.unsplash.com/photo-1541888946425-d0fbb18f156b?auto=format&fit=crop&w=600&q=80",
+      "status": "in_progress",
+      "estimatedWaterLossLiters": 240,
+      "assignedTo": "Murali (Plumbing Staff)",
+      "resolutionNotes": "Replacement valve seal dispatched. Expected completion today 5 PM.",
+      "createdAt": "2026-11-18T15:04:26.621Z",
+      "updatedAt": "2026-11-20T14:04:26.621Z"
+    },
+    {
+      "id": "leak-02",
+      "communityId": "comm-01",
+      "reporterName": "Security Gate Team",
+      "title": "Underground Sump Overflow Sensor Failure",
+      "description": "Overflow pipe was trickling water into storm drain for 40 minutes during morning pump fill cycle.",
+      "leakageType": "overhead_tank_overflow",
+      "severity": "high",
+      "latitude": 12.9354,
+      "longitude": 77.7301,
+      "locationDescription": "Central Sump Room #2",
+      "status": "resolved",
+      "estimatedWaterLossLiters": 650,
+      "assignedTo": "Apex Automation Engineers",
+      "resolutionNotes": "Float switch recalibrated and auto-shutoff relay replaced.",
+      "createdAt": "2026-11-15T15:04:26.621Z",
+      "updatedAt": "2026-11-16T15:04:26.621Z"
+    }
+  ],
+  "communityLogs": [
+    {
+      "id": "log-01",
+      "communityId": "comm-01",
+      "authorName": "Society Management Office",
+      "logType": "water_availability",
+      "title": "Daily Water Supply Schedule - Uninterrupted 24/7",
+      "content": "Both overhead reservoirs are currently operating above 75% capacity. Water pressure remains nominal across all blocks.",
+      "metricValue": 75,
+      "metricUnit": "%",
+      "isVerified": true,
+      "createdAt": "2026-11-20T13:04:26.621Z"
+    },
+    {
+      "id": "log-02",
+      "communityId": "comm-01",
+      "authorName": "Anita Desai (Resident)",
+      "logType": "conservation_observation",
+      "title": "Aerator Installation Feedback - Tower B",
+      "content": "All 48 apartments in Tower B have completed installation of 3 LPM water-saving faucet aerators, saving an estimated 14,000L weekly.",
+      "isVerified": true,
+      "createdAt": "2026-11-19T15:04:26.621Z"
+    },
+    {
+      "id": "log-03",
+      "communityId": "comm-01",
+      "authorName": "Karthik Subramanian (Tower C)",
+      "logType": "shortage_alert",
+      "title": "Notice: Low Pressure on 8th Floor between 2 PM - 4 PM",
+      "content": "Observed slightly reduced pressure during booster pump maintenance window. Resolved after booster switchover.",
+      "isVerified": true,
+      "createdAt": "2026-11-18T15:04:26.621Z"
+    }
+  ],
+  "sensors": [
+    {
+      "id": "sens-001",
+      "deviceUid": "ESP32-BW01-D9F4",
+      "deviceType": "pressure_transducer",
+      "borewellId": "bw-001",
+      "locationName": "Main Deep Borewell #1",
+      "hardwareModel": "ESP32-AquaSense-Pro (Hydrostatic Submersible Transducer)",
+      "firmwareVersion": "v2.4.1",
+      "connectionProtocol": "wifi_http",
+      "apiToken": "sec_tok_bw01_9921ab",
+      "status": "online",
+      "batteryPercentage": 98,
+      "signalStrengthRssi": -62,
+      "lastPingAt": "2026-11-20T15:04:26.621Z"
+    },
+    {
+      "id": "sens-002",
+      "deviceUid": "ESP32-TANK-A102",
+      "deviceType": "ultrasonic_depth",
+      "locationName": "Tower A Overhead Tank",
+      "hardwareModel": "ESP32-AquaSense-Tank (Ultrasonic Transceiver IP68)",
+      "firmwareVersion": "v2.3.8",
+      "connectionProtocol": "wifi_http",
+      "apiToken": "sec_tok_tnk01_7734cd",
+      "status": "online",
+      "batteryPercentage": 94,
+      "signalStrengthRssi": -58,
+      "lastPingAt": "2026-11-20T15:04:26.621Z"
+    },
+    {
+      "id": "sens-003",
+      "deviceUid": "ESP32-RAIN-R701",
+      "deviceType": "rain_gauge",
+      "locationName": "Clubhouse Weather Station",
+      "hardwareModel": "ESP32-AquaSense-Meteo (Tipping Bucket Rain Gauge)",
+      "firmwareVersion": "v1.9.0",
+      "connectionProtocol": "lorawan",
+      "apiToken": "sec_tok_rain_4482ef",
+      "status": "online",
+      "batteryPercentage": 88,
+      "signalStrengthRssi": -74,
+      "lastPingAt": "2026-11-20T15:04:26.621Z"
+    },
+    {
+      "id": "sens-004",
+      "deviceUid": "ESP32-FLOW-F305",
+      "deviceType": "flow_meter",
+      "locationName": "Main Distribution Manifold",
+      "hardwareModel": "ESP32-AquaSense-Flow (Electromagnetic Digital Flowmeter)",
+      "firmwareVersion": "v2.1.0",
+      "connectionProtocol": "wifi_http",
+      "apiToken": "sec_tok_flow_8819ab",
+      "status": "online",
+      "batteryPercentage": 100,
+      "signalStrengthRssi": -54,
+      "lastPingAt": "2026-11-20T15:04:26.621Z"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "alt-01",
+      "communityId": "comm-01",
+      "title": "Groundwater Table Declining Seasonally",
+      "message": "Depth to water in North Borewell #1 increased by 0.9m over the last 30 days. Pumping rate optimization recommended.",
+      "severity": "warning",
+      "category": "groundwater",
+      "isRead": false,
+      "createdAt": "2026-11-20T13:04:26.621Z"
+    },
+    {
+      "id": "alt-02",
+      "communityId": "comm-01",
+      "title": "Tanker Supply Successfully Delivered",
+      "message": "Cauvery Aqua Logistics delivered 12,000L to Central Underground Sump at 10:30 AM.",
+      "severity": "info",
+      "category": "tanker",
+      "isRead": false,
+      "createdAt": "2026-11-20T11:04:26.621Z"
+    },
+    {
+      "id": "alt-03",
+      "communityId": "comm-01",
+      "title": "High Water Loss Reported Near Garden Valve",
+      "message": "New leakage report submitted by resident Anita Desai. Maintenance dispatched.",
+      "severity": "warning",
+      "category": "leakage",
+      "isRead": true,
+      "createdAt": "2026-11-18T15:04:26.621Z"
+    }
+  ],
+  "waterConsumption": [
+    {
+      "id": "cons-13",
+      "communityId": "comm-01",
+      "date": "2026-11-07",
+      "liters": 69471,
+      "type": "domestic"
+    },
+    {
+      "id": "cons-12",
+      "communityId": "comm-01",
+      "date": "2026-11-08",
+      "liters": 66122,
+      "type": "domestic"
+    },
+    {
+      "id": "cons-11",
+      "communityId": "comm-01",
+      "date": "2026-11-09",
+      "liters": 50500,
+      "type": "domestic"
+    },
+    {
+      "id": "cons-10",
+      "communityId": "comm-01",
+      "date": "2026-11-10",
+      "liters": 52096,
+      "type": "domestic"
+    },
+    {
+      "id": "cons-9",
+      "communityId": "comm-01",
+      "date": "2026-11-11",
+      "liters": 55442,
+      "type": "domestic"
+    },
+    {
+      "id": "cons-8",
+      "communityId": "comm-01",
+      "date": "2026-11-12",
+      "liters": 57463,
+      "type": "domestic"
+    },
+    {
+      "id": "cons-7",
+      "communityId": "comm-01",
+      "date": "2026-11-13",
+      "liters": 56299,
+      "type": "domestic"
+    },
+    {
+      "id": "cons-6",
+      "communityId": "comm-01",
+      "date": "2026-11-14",
+      "liters": 67022,
+      "type": "domestic"
+    },
+    {
+      "id": "cons-5",
+      "communityId": "comm-01",
+      "date": "2026-11-15",
+      "liters": 64644,
+      "type": "domestic"
+    },
+    {
+      "id": "cons-4",
+      "communityId": "comm-01",
+      "date": "2026-11-16",
+      "liters": 51351,
+      "type": "domestic"
+    },
+    {
+      "id": "cons-3",
+      "communityId": "comm-01",
+      "date": "2026-11-17",
+      "liters": 54494,
+      "type": "domestic"
+    },
+    {
+      "id": "cons-2",
+      "communityId": "comm-01",
+      "date": "2026-11-18",
+      "liters": 57183,
+      "type": "domestic"
+    },
+    {
+      "id": "cons-1",
+      "communityId": "comm-01",
+      "date": "2026-11-19",
+      "liters": 56945,
+      "type": "domestic"
+    },
+    {
+      "id": "cons-0",
+      "communityId": "comm-01",
+      "date": "2026-11-20",
+      "liters": 54000,
+      "type": "domestic"
+    }
+  ],
+  "rainfallReadings": [
+    {
+      "id": "rain-1",
+      "communityId": "comm-01",
+      "date": "2026-10-25",
+      "rainfallMm": 24.5
+    },
+    {
+      "id": "rain-2",
+      "communityId": "comm-01",
+      "date": "2026-10-28",
+      "rainfallMm": 42
+    },
+    {
+      "id": "rain-3",
+      "communityId": "comm-01",
+      "date": "2026-11-04",
+      "rainfallMm": 12.8
+    },
+    {
+      "id": "rain-4",
+      "communityId": "comm-01",
+      "date": "2026-11-12",
+      "rainfallMm": 18.2
+    },
+    {
+      "id": "rain-5",
+      "communityId": "comm-01",
+      "date": "2026-11-18",
+      "rainfallMm": 6.4
+    }
+  ]
+}

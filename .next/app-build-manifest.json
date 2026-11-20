@@ -1,0 +1,179 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-ca65d9de14d396cd.js",
+      "static/chunks/fd9d1056-6f98de30b48573f0.js",
+      "static/chunks/117-d7ef25116734f3e4.js",
+      "static/chunks/main-app-11bb79a1422f4319.js",
+      "static/chunks/app/_not-found/page-7aea3e69025b3abc.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-ca65d9de14d396cd.js",
+      "static/chunks/fd9d1056-6f98de30b48573f0.js",
+      "static/chunks/117-d7ef25116734f3e4.js",
+      "static/chunks/main-app-11bb79a1422f4319.js",
+      "static/css/1b40e4422a8600d5.css",
+      "static/chunks/app/layout-78429e714fa9dbb2.js"
+    ],
+    "/ai-prediction/page": [
+      "static/chunks/webpack-ca65d9de14d396cd.js",
+      "static/chunks/fd9d1056-6f98de30b48573f0.js",
+      "static/chunks/117-d7ef25116734f3e4.js",
+      "static/chunks/main-app-11bb79a1422f4319.js",
+      "static/chunks/528-fd54840a47bf786c.js",
+      "static/chunks/861-2c3c83f0fdecda60.js",
+      "static/chunks/263-652ee1548445ee30.js",
+      "static/chunks/732-0702b9aca385b3de.js",
+      "static/chunks/209-36947f239eb37ea5.js",
+      "static/chunks/app/ai-prediction/page-b6fac2fb3a275e5d.js"
+    ],
+    "/alerts/page": [
+      "static/chunks/webpack-ca65d9de14d396cd.js",
+      "static/chunks/fd9d1056-6f98de30b48573f0.js",
+      "static/chunks/117-d7ef25116734f3e4.js",
+      "static/chunks/main-app-11bb79a1422f4319.js",
+      "static/chunks/528-fd54840a47bf786c.js",
+      "static/chunks/209-36947f239eb37ea5.js",
+      "static/chunks/app/alerts/page-bd67669e7a61ebf6.js"
+    ],
+    "/analytics/page": [
+      "static/chunks/webpack-ca65d9de14d396cd.js",
+      "static/chunks/fd9d1056-6f98de30b48573f0.js",
+      "static/chunks/117-d7ef25116734f3e4.js",
+      "static/chunks/main-app-11bb79a1422f4319.js",
+      "static/chunks/528-fd54840a47bf786c.js",
+      "static/chunks/861-2c3c83f0fdecda60.js",
+      "static/chunks/263-652ee1548445ee30.js",
+      "static/chunks/209-36947f239eb37ea5.js",
+      "static/chunks/app/analytics/page-ca706c797e714e64.js"
+    ],
+    "/aqua-map/page": [
+      "static/chunks/webpack-ca65d9de14d396cd.js",
+      "static/chunks/fd9d1056-6f98de30b48573f0.js",
+      "static/chunks/117-d7ef25116734f3e4.js",
+      "static/chunks/main-app-11bb79a1422f4319.js",
+      "static/chunks/528-fd54840a47bf786c.js",
+      "static/chunks/861-2c3c83f0fdecda60.js",
+      "static/chunks/209-36947f239eb37ea5.js",
+      "static/chunks/app/aqua-map/page-4d00eae10a61597e.js"
+    ],
+    "/conservation/page": [
+      "static/chunks/webpack-ca65d9de14d396cd.js",
+      "static/chunks/fd9d1056-6f98de30b48573f0.js",
+      "static/chunks/117-d7ef25116734f3e4.js",
+      "static/chunks/main-app-11bb79a1422f4319.js",
+      "static/chunks/528-fd54840a47bf786c.js",
+      "static/chunks/209-36947f239eb37ea5.js",
+      "static/chunks/app/conservation/page-edbf070f96531718.js"
+    ],
+    "/borewell-monitoring/page": [
+      "static/chunks/webpack-ca65d9de14d396cd.js",
+      "static/chunks/fd9d1056-6f98de30b48573f0.js",
+      "static/chunks/117-d7ef25116734f3e4.js",
+      "static/chunks/main-app-11bb79a1422f4319.js",
+      "static/chunks/528-fd54840a47bf786c.js",
+      "static/chunks/861-2c3c83f0fdecda60.js",
+      "static/chunks/209-36947f239eb37ea5.js",
+      "static/chunks/app/borewell-monitoring/page-e133acdf7edc85ec.js"
+    ],
+    "/community-logs/page": [
+      "static/chunks/webpack-ca65d9de14d396cd.js",
+      "static/chunks/fd9d1056-6f98de30b48573f0.js",
+      "static/chunks/117-d7ef25116734f3e4.js",
+      "static/chunks/main-app-11bb79a1422f4319.js",
+      "static/chunks/528-fd54840a47bf786c.js",
+      "static/chunks/209-36947f239eb37ea5.js",
+      "static/chunks/app/community-logs/page-b10dea373d75693d.js"
+    ],
+    "/dashboard/page": [
+      "static/chunks/webpack-ca65d9de14d396cd.js",
+      "static/chunks/fd9d1056-6f98de30b48573f0.js",
+      "static/chunks/117-d7ef25116734f3e4.js",
+      "static/chunks/main-app-11bb79a1422f4319.js",
+      "static/chunks/528-fd54840a47bf786c.js",
+      "static/chunks/861-2c3c83f0fdecda60.js",
+      "static/chunks/209-36947f239eb37ea5.js",
+      "static/chunks/app/dashboard/page-b31a32237142bcfb.js"
+    ],
+    "/devices/page": [
+      "static/chunks/webpack-ca65d9de14d396cd.js",
+      "static/chunks/fd9d1056-6f98de30b48573f0.js",
+      "static/chunks/117-d7ef25116734f3e4.js",
+      "static/chunks/main-app-11bb79a1422f4319.js",
+      "static/chunks/528-fd54840a47bf786c.js",
+      "static/chunks/209-36947f239eb37ea5.js",
+      "static/chunks/app/devices/page-99529b31383d5f0d.js"
+    ],
+    "/groundwater/page": [
+      "static/chunks/webpack-ca65d9de14d396cd.js",
+      "static/chunks/fd9d1056-6f98de30b48573f0.js",
+      "static/chunks/117-d7ef25116734f3e4.js",
+      "static/chunks/main-app-11bb79a1422f4319.js",
+      "static/chunks/528-fd54840a47bf786c.js",
+      "static/chunks/861-2c3c83f0fdecda60.js",
+      "static/chunks/209-36947f239eb37ea5.js",
+      "static/chunks/app/groundwater/page-ca94095591ba4bff.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-ca65d9de14d396cd.js",
+      "static/chunks/fd9d1056-6f98de30b48573f0.js",
+      "static/chunks/117-d7ef25116734f3e4.js",
+      "static/chunks/main-app-11bb79a1422f4319.js",
+      "static/chunks/app/page-6b7dd63af3dd45de.js"
+    ],
+    "/report-leakage/page": [
+      "static/chunks/webpack-ca65d9de14d396cd.js",
+      "static/chunks/fd9d1056-6f98de30b48573f0.js",
+      "static/chunks/117-d7ef25116734f3e4.js",
+      "static/chunks/main-app-11bb79a1422f4319.js",
+      "static/chunks/528-fd54840a47bf786c.js",
+      "static/chunks/209-36947f239eb37ea5.js",
+      "static/chunks/app/report-leakage/page-58882242b2a64877.js"
+    ],
+    "/rainwater-harvesting/page": [
+      "static/chunks/webpack-ca65d9de14d396cd.js",
+      "static/chunks/fd9d1056-6f98de30b48573f0.js",
+      "static/chunks/117-d7ef25116734f3e4.js",
+      "static/chunks/main-app-11bb79a1422f4319.js",
+      "static/chunks/528-fd54840a47bf786c.js",
+      "static/chunks/209-36947f239eb37ea5.js",
+      "static/chunks/app/rainwater-harvesting/page-8eb3103d34dcb3ed.js"
+    ],
+    "/settings/page": [
+      "static/chunks/webpack-ca65d9de14d396cd.js",
+      "static/chunks/fd9d1056-6f98de30b48573f0.js",
+      "static/chunks/117-d7ef25116734f3e4.js",
+      "static/chunks/main-app-11bb79a1422f4319.js",
+      "static/chunks/528-fd54840a47bf786c.js",
+      "static/chunks/209-36947f239eb37ea5.js",
+      "static/chunks/app/settings/page-210ef2ed5b6272a1.js"
+    ],
+    "/reports/page": [
+      "static/chunks/webpack-ca65d9de14d396cd.js",
+      "static/chunks/fd9d1056-6f98de30b48573f0.js",
+      "static/chunks/117-d7ef25116734f3e4.js",
+      "static/chunks/main-app-11bb79a1422f4319.js",
+      "static/chunks/528-fd54840a47bf786c.js",
+      "static/chunks/209-36947f239eb37ea5.js",
+      "static/chunks/app/reports/page-f2bc46247a735b7a.js"
+    ],
+    "/tank-monitoring/page": [
+      "static/chunks/webpack-ca65d9de14d396cd.js",
+      "static/chunks/fd9d1056-6f98de30b48573f0.js",
+      "static/chunks/117-d7ef25116734f3e4.js",
+      "static/chunks/main-app-11bb79a1422f4319.js",
+      "static/chunks/528-fd54840a47bf786c.js",
+      "static/chunks/209-36947f239eb37ea5.js",
+      "static/chunks/app/tank-monitoring/page-b3879a7531efa923.js"
+    ],
+    "/tanker-schedule/page": [
+      "static/chunks/webpack-ca65d9de14d396cd.js",
+      "static/chunks/fd9d1056-6f98de30b48573f0.js",
+      "static/chunks/117-d7ef25116734f3e4.js",
+      "static/chunks/main-app-11bb79a1422f4319.js",
+      "static/chunks/528-fd54840a47bf786c.js",
+      "static/chunks/209-36947f239eb37ea5.js",
+      "static/chunks/app/tanker-schedule/page-711c0ea1add84aab.js"
+    ]
+  }
+}
